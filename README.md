@@ -29,7 +29,7 @@ Pierwsza strona internetowa powstała w 1991 roku dzięki Timowi Berners-Lee. Od
 ## Podstawy HTML
 
 HTML (HyperText Markup Language) to język do tworzenia struktury strony. Przykład:
-
+    
 html
 <!DOCTYPE html>
 <html>
@@ -50,7 +50,7 @@ html
 ## Podstawy CSS
 
 CSS (Cascading Style Sheets) odpowiada za wygląd strony. Przykład:
-
+    
 body {
   background-color: #f5f5f5;
   font-family: Arial, sans-serif;
@@ -81,13 +81,13 @@ Media Queries
 Media queries są elementem CSS, który pozwala na definiowanie stylów dla różnych warunków, takich jak rozmiar ekranu, orientacja urządzenia czy typ urządzenia. Dzięki temu, strona może być wyświetlana w sposób odpowiedni dla danego urządzenia.
 
 Przykład media query:
-``
+    
 @media (max-width: 600px) {
   body {
     font-size: 16px;
   }
 }
-``
+
 
 W tym przykładzie, @media (max-width: 600px) oznacza, że styl powinien być zastosowany, gdy szerokość ekranu jest mniejsza lub równa 600 pikselom. Wewnątrz tego bloku, body { font-size: 16px; } oznacza, że rozmiar czcionki powinien być ustawiony na 16 pikseli.
 
@@ -103,18 +103,18 @@ SEO (Search Engine Optimization) to techniki, które pomagają stronie znaleźć
 * Semantyczny HTML
 
 Przykład meta tagów:
-``
+    
 <meta name="description" content="Poradnik o tworzeniu stron internetowych, HTML, CSS, SEO i responsywności.">
 <meta name="keywords" content="HTML, CSS, responsywność, SEO, historia, poradnik, tworzenie stron">
 <meta name="robots" content="index, follow">
-``
+
 
 Semantyczny HTML
 
 Semantyczny HTML to sposób pisania kodu HTML, który opiera się na znaczeniu elementów, a nie tylko na ich wyglądzie. Oznacza to, że elementy HTML powinny być używane w sposób, który odzwierciedla ich znaczenie w dokumencie, a nie tylko w celu uzyskania określonego wyglądu.
 
 Przykład semantycznego HTML:
-``
+    
 <header>
   <nav>
     <ul>
@@ -134,7 +134,7 @@ Przykład semantycznego HTML:
   <p>&copy; 2023 Nasza strona</p>
 </footer>
 
-``
+
 W tym przykładzie, elementy HTML są używane w sposób semantyczny:
 
 * <header> oznacza nagłówek strony
