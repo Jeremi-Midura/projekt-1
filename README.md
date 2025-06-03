@@ -50,7 +50,8 @@ html
 ## Podstawy CSS
 
 CSS (Cascading Style Sheets) odpowiada za wygląd strony. Przykład:
-    ```
+    ``
+	css
 body {
   background-color: #f5f5f5;
   font-family: Arial, sans-serif;
@@ -58,10 +59,10 @@ body {
 h1 {
   color: #3366cc;
 }
-``` 
+``
 
 * * *   
-* * *
+
 
 ## Responsywność stron
 
