@@ -85,11 +85,11 @@ Media queries są elementem CSS, który pozwala na definiowanie stylów dla ró�
 
 Przykład media query:
     
-```@media (max-width: 600px) {
+``@media (max-width: 600px) {
   body {
     font-size: 16px;
   }
-}```
+}``
 
 
 W tym przykładzie, @media (max-width: 600px) oznacza, że styl powinien być zastosowany, gdy szerokość ekranu jest mniejsza lub równa 600 pikselom. Wewnątrz tego bloku, body { font-size: 16px; } oznacza, że rozmiar czcionki powinien być ustawiony na 16 pikseli.
@@ -106,10 +106,10 @@ SEO (Search Engine Optimization) to techniki, które pomagają stronie znaleźć
 * Semantyczny HTML
 
 Przykład meta tagów:
- ```    
+ `` 
 <meta name="description" content="Poradnik o tworzeniu stron internetowych, HTML, CSS, SEO i responsywności.">
 <meta name="keywords" content="HTML, CSS, responsywność, SEO, historia, poradnik, tworzenie stron">
-<meta name="robots" content="index, follow">```
+<meta name="robots" content="index, follow">``
 
 
 Semantyczny HTML
