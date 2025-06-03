@@ -12,26 +12,26 @@
 - [Poradnik krok po kroku](#poradnik-krok-po-kroku)
 - [Podsumowanie](#podsumowanie)
 
----
+* * *
 
 ## Wstęp
 
 Witaj w poradniku dotyczącym tworzenia nowoczesnych stron internetowych! Znajdziesz tu informacje o historii WWW, podstawach HTML i CSS, responsywności oraz SEO, a także praktyczne porady.
 
----
+* * *
 
 ## Historia stron WWW
 
 Pierwsza strona internetowa powstała w 1991 roku dzięki Timowi Berners-Lee. Od tego czasu strony przeszły ogromną ewolucję — od prostych dokumentów tekstowych do dynamicznych, responsywnych aplikacji.
 
----
+* * *
 
 ## Podstawy HTML
 
 HTML (HyperText Markup Language) to język do tworzenia struktury strony. Przykład:
 
-html
-```<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
   <head>
     <title>Moja Strona</title>
@@ -42,9 +42,12 @@ html
   </body>
 </html>
 
-***
 
-## Podstawy CSS
+
+* * *
+
+
+## Podstawy HTML
 
 CSS (Cascading Style Sheets) odpowiada za wygląd strony. Przykład:
 
@@ -56,7 +59,7 @@ h1 {
   color: #3366cc;
 }
 
-***
+* * *
 
 ## Responsywność stron
 
@@ -88,7 +91,7 @@ Przykład media query:
 
 W tym przykładzie, @media (max-width: 600px) oznacza, że styl powinien być zastosowany, gdy szerokość ekranu jest mniejsza lub równa 600 pikselom. Wewnątrz tego bloku, body { font-size: 16px; } oznacza, że rozmiar czcionki powinien być ustawiony na 16 pikseli.
 
----
+* * *
 
 SEO – optymalizacja dla wyszukiwarek
 
@@ -143,7 +146,8 @@ W tym przykładzie, elementy HTML są używane w sposób semantyczny:
 * <footer> oznacza stopkę strony
 
 Dzięki temu, strona jest łatwiejsza do zrozumienia dla przeglądarek i silników wyszukiwania, a także dla osób z niepełnosprawnościami, które używają technologii asystujących.
----
+
+* * *
 
 ## Poradnik krok po kroku
 1.Zaplanuj strukturę strony – określ, jakie sekcje powinna mieć strona.
