@@ -83,13 +83,13 @@ Media Queries
 Media queries są elementem CSS, który pozwala na definiowanie stylów dla różnych warunków, takich jak rozmiar ekranu, orientacja urządzenia czy typ urządzenia. Dzięki temu, strona może być wyświetlana w sposób odpowiedni dla danego urządzenia.
 
 Przykład media query:
-``    
+```  
 @media (max-width: 600px) {
   body {
     font-size: 16px;
   }
 }
-``
+```
 
 W tym przykładzie, @media (max-width: 600px) oznacza, że styl powinien być zastosowany, gdy szerokość ekranu jest mniejsza lub równa 600 pikselom. Wewnątrz tego bloku, body { font-size: 16px; } oznacza, że rozmiar czcionki powinien być ustawiony na 16 pikseli.
 
