@@ -152,13 +152,13 @@ Dzięki temu, strona jest łatwiejsza do zrozumienia dla przeglądarek i silnik�
 * * *
 
 ## Poradnik krok po kroku
-1.Zaplanuj strukturę strony – określ, jakie sekcje powinna mieć strona.
-2.Zacznij od HTML – stwórz strukturę dokumentu.
-3.Dodaj style CSS – zadbaj o wygląd i czytelność.
-4.Wprowadź responsywność – użyj media queries i meta viewport.
-5.Dodaj elementy SEO – meta tagi, poprawne nagłówki, opisy obrazków.
-6.Testuj stronę – sprawdź na różnych urządzeniach i przeglądarkach.
-7.Opublikuj stronę – np. przez GitHub Pages lub inny hosting.
+1. Zaplanuj strukturę strony – określ, jakie sekcje powinna mieć strona.
+2. Zacznij od HTML – stwórz strukturę dokumentu.
+3. Dodaj style CSS – zadbaj o wygląd i czytelność.
+4. Wprowadź responsywność – użyj media queries i meta viewport.
+5 Dodaj elementy SEO – meta tagi, poprawne nagłówki, opisy obrazków.
+6. Testuj stronę – sprawdź na różnych urządzeniach i przeglądarkach.
+7. Opublikuj stronę – np. przez GitHub Pages lub inny hosting.
 
 ## Podsumowanie
 
