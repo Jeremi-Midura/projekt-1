@@ -140,13 +140,13 @@ Przykład semantycznego HTML:
 
 W tym przykładzie, elementy HTML są używane w sposób semantyczny:
 ```
-* `<header>` oznacza nagłówek strony
-* `<nav>` oznacza menu nawigacyjne
-* `<main>` oznacza główną treść strony
-* `<section>` oznacza sekcję treści
-* `<h1>` oznacza nagłówek pierwszego poziomu
-* `<p>` oznacza akapit
-* `<footer>` oznacza stopkę strony
+* <header> oznacza nagłówek strony
+* <nav> oznacza menu nawigacyjne
+* <main>oznacza główną treść strony
+* <section> oznacza sekcję treści
+* <h1> oznacza nagłówek pierwszego poziomu
+* <p> oznacza akapit
+* <footer> oznacza stopkę strony
 ```
 Dzięki temu, strona jest łatwiejsza do zrozumienia dla przeglądarek i silników wyszukiwania, a także dla osób z niepełnosprawnościami, które używają technologii asystujących.
 
