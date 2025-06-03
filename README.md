@@ -30,8 +30,8 @@ Pierwsza strona internetowa powstała w 1991 roku dzięki Timowi Berners-Lee. Od
 
 HTML (HyperText Markup Language) to język do tworzenia struktury strony. Przykład:
 
-```html
-<!DOCTYPE html>
+html
+<pre>```<!DOCTYPE html>
 <html>
   <head>
     <title>Moja Strona</title>
@@ -40,7 +40,7 @@ HTML (HyperText Markup Language) to język do tworzenia struktury strony. Przyk�
     <h1>Witaj na mojej stronie!</h1>
     <p>To jest przykładowy tekst.</p>
   </body>
-</html>```
+</html>```</pre>
 
 ---
 
@@ -48,13 +48,13 @@ HTML (HyperText Markup Language) to język do tworzenia struktury strony. Przyk�
 
 CSS (Cascading Style Sheets) odpowiada za wygląd strony. Przykład:
 
-```body {
+<pre>```body {
   background-color: #f5f5f5;
   font-family: Arial, sans-serif;
 }
 h1 {
   color: #3366cc;
-}```
+}```<pre>
 
 ---
 
@@ -68,7 +68,7 @@ Meta tag viewport jest elementem HTML, który informuje przeglądarkę o tym, ja
 
 Przykład meta tagu viewport:
 
-```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 W tym przykładzie, width=device-width oznacza, że strona powinna mieć szerokość równą szerokości urządzenia, na którym jest wyświetlana. initial-scale=1.0 oznacza, że strona powinna być wyświetlana w skali 1:1, co oznacza, że nie powinna być powiększona ani pomniejszona.
@@ -79,11 +79,11 @@ Media queries są elementem CSS, który pozwala na definiowanie stylów dla ró�
 
 Przykład media query:
 
-```@media (max-width: 600px) {
+@media (max-width: 600px) {
   body {
     font-size: 16px;
   }
-}```
+}
 
 
 W tym przykładzie, @media (max-width: 600px) oznacza, że styl powinien być zastosowany, gdy szerokość ekranu jest mniejsza lub równa 600 pikselom. Wewnątrz tego bloku, body { font-size: 16px; } oznacza, że rozmiar czcionki powinien być ustawiony na 16 pikseli.
@@ -101,9 +101,9 @@ SEO (Search Engine Optimization) to techniki, które pomagają stronie znaleźć
 
 Przykład meta tagów:
 
-```<meta name="description" content="Poradnik o tworzeniu stron internetowych, HTML, CSS, SEO i responsywności.">
+<meta name="description" content="Poradnik o tworzeniu stron internetowych, HTML, CSS, SEO i responsywności.">
 <meta name="keywords" content="HTML, CSS, responsywność, SEO, historia, poradnik, tworzenie stron">
-<meta name="robots" content="index, follow">```
+<meta name="robots" content="index, follow">
 
 
 Semantyczny HTML
@@ -112,7 +112,7 @@ Semantyczny HTML to sposób pisania kodu HTML, który opiera się na znaczeniu e
 
 Przykład semantycznego HTML:
 
-```<header>
+<header>
   <nav>
     <ul>
       <li><a href="#">Strona główna</a></li>
@@ -129,7 +129,7 @@ Przykład semantycznego HTML:
 </main>
 <footer>
   <p>&copy; 2023 Nasza strona</p>
-</footer>```
+</footer>
 
 
 W tym przykładzie, elementy HTML są używane w sposób semantyczny:
