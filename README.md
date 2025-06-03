@@ -58,7 +58,9 @@ body {
 h1 {
   color: #3366cc;
 }
-```
+``` 
+
+* * *   
 * * *
 
 ## Responsywność stron
