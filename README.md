@@ -95,7 +95,7 @@ W tym przykładzie, @media (max-width: 600px) oznacza, że styl powinien być za
 
 * * *
 
-SEO – optymalizacja dla wyszukiwarek
+## SEO – optymalizacja dla wyszukiwarek
 
 SEO (Search Engine Optimization) to techniki, które pomagają stronie znaleźć się wyżej w wynikach wyszukiwania. Ważne elementy:
 
