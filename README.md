@@ -29,7 +29,7 @@ Pierwsza strona internetowa powstała w 1991 roku dzięki Timowi Berners-Lee. Od
 ## Podstawy HTML
 
 HTML (HyperText Markup Language) to język do tworzenia struktury strony. Przykład:
-  ``  
+  <br>
 html
 <!DOCTYPE html>
 <html>
@@ -41,7 +41,7 @@ html
     <p>To jest przykładowy tekst.</p>
   </body>
 </html> 
-``
+</br>
 
 
 * * *
