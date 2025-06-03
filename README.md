@@ -42,7 +42,7 @@ html
   </body>
 </html>
 
----
+***
 
 ## Podstawy CSS
 
@@ -56,7 +56,7 @@ h1 {
   color: #3366cc;
 }
 
----
+***
 
 ## Responsywność stron
 
