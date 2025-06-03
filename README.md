@@ -105,11 +105,11 @@ SEO (Search Engine Optimization) to techniki, które pomagają stronie znaleźć
 * Semantyczny HTML
 
 Przykład meta tagów:
-`` 
+```
 <meta name="description" content="Poradnik o tworzeniu stron internetowych, HTML, CSS, SEO i responsywności.">
 <meta name="keywords" content="HTML, CSS, responsywność, SEO, historia, poradnik, tworzenie stron">
 <meta name="robots" content="index, follow">
-``
+```
 
 Semantyczny HTML
 
