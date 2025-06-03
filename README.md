@@ -29,7 +29,7 @@ Pierwsza strona internetowa powstała w 1991 roku dzięki Timowi Berners-Lee. Od
 ## Podstawy HTML
 
 HTML (HyperText Markup Language) to język do tworzenia struktury strony. Przykład:
-    
+  ``  
 html
 <!DOCTYPE html>
 <html>
@@ -40,8 +40,8 @@ html
     <h1>Witaj na mojej stronie!</h1>
     <p>To jest przykładowy tekst.</p>
   </body>
-</html> <br>
-
+</html> 
+``
 
 
 * * *
@@ -50,7 +50,7 @@ html
 ## Podstawy CSS
 
 CSS (Cascading Style Sheets) odpowiada za wygląd strony. Przykład:
-    
+    ```
 body {
   background-color: #f5f5f5;
   font-family: Arial, sans-serif;
@@ -58,7 +58,7 @@ body {
 h1 {
   color: #3366cc;
 }
-
+```
 * * *
 
 ## Responsywność stron
