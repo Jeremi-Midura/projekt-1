@@ -50,8 +50,7 @@ html
 ## Podstawy CSS
 
 CSS (Cascading Style Sheets) odpowiada za wygląd strony. Przykład:
-    ``
-	css
+    ```
 body {
   background-color: #f5f5f5;
   font-family: Arial, sans-serif;
@@ -59,7 +58,7 @@ body {
 h1 {
   color: #3366cc;
 }
-``
+```
 
 * * *   
 
@@ -89,8 +88,8 @@ Przykład media query:
   body {
     font-size: 16px;
   }
-}``
-
+}
+``
 
 W tym przykładzie, @media (max-width: 600px) oznacza, że styl powinien być zastosowany, gdy szerokość ekranu jest mniejsza lub równa 600 pikselom. Wewnątrz tego bloku, body { font-size: 16px; } oznacza, że rozmiar czcionki powinien być ustawiony na 16 pikseli.
 
@@ -109,8 +108,8 @@ Przykład meta tagów:
 `` 
 <meta name="description" content="Poradnik o tworzeniu stron internetowych, HTML, CSS, SEO i responsywności.">
 <meta name="keywords" content="HTML, CSS, responsywność, SEO, historia, poradnik, tworzenie stron">
-<meta name="robots" content="index, follow">``
-
+<meta name="robots" content="index, follow">
+``
 
 Semantyczny HTML
 
