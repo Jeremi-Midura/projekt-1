@@ -40,7 +40,7 @@ html
     <h1>Witaj na mojej stronie!</h1>
     <p>To jest przykładowy tekst.</p>
   </body>
-</html>
+</html> <br>
 
 
 
