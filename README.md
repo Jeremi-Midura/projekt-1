@@ -31,7 +31,7 @@ Pierwsza strona internetowa powstała w 1991 roku dzięki Timowi Berners-Lee. Od
 HTML (HyperText Markup Language) to język do tworzenia struktury strony. Przykład:
 
 html
-<pre>```<!DOCTYPE html>
+```<!DOCTYPE html>
 <html>
   <head>
     <title>Moja Strona</title>
@@ -40,7 +40,7 @@ html
     <h1>Witaj na mojej stronie!</h1>
     <p>To jest przykładowy tekst.</p>
   </body>
-</html>```</pre>
+</html>
 
 ---
 
@@ -48,13 +48,13 @@ html
 
 CSS (Cascading Style Sheets) odpowiada za wygląd strony. Przykład:
 
-<pre>```body {
+body {
   background-color: #f5f5f5;
   font-family: Arial, sans-serif;
 }
 h1 {
   color: #3366cc;
-}```<pre>
+}
 
 ---
 
