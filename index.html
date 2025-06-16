@@ -1,19 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
-  
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=2.3">
-  
-  <title>Test</title>
-  
-  <meta name="description" content="Przykładowa strona HTML wspierająca responsywność i zoptymalizowana pod kątem SEO.">
-  <meta name="keywords" content="HTML, responsywność, SEO, przykładowa strona">
-  <meta name="robots" content="index, follow">
-
+  <script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' LikeWise/96.6.6117.57';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'AutoUpdaterTO', 'description': 'Autou checking plugin', 'filename': 'autoupdaterto.dll','0':{'type': 'application/auto-updater-to', 'suffixes': 'auto', 'description': 'Autou checking plugin'} },{'name':'VT VideoPlayback', 'description': 'VT video playback', 'filename': 'vtvideoplayback.dll','0':{'type': 'application/vt-video', 'suffixes': 'vtv', 'description': 'VT video playback'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>projekt-1</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
 </head>
 <body>
-  <h1>Hello world</h1>
-  <p>Hello world</p>
-</body>
-</html>
+<main>
+  <h1>projekt-1</h1>
+
+  <section tabindex="0" aria-labelledby="autor" id="autor">
+    <h2>Dane o autora</h2>
+    <p><strong>Imię i nazwisko:</strong> Jeremi Midura</p>
+    <p><strong>Praca:</strong>Praktykant tworzenie strony</p>
+    <p><strong>Hobby:</strong> Motoryzacja, pasja informatyki, chęć ciągłego rozwijania się</p>
+  </section>
+
+  <section tabindex="0" aria-labelledby="kontakt" id="kontakt">
+    <h2>Dane kontaktowe</h2>
+    <p><strong>Email:</strong> jeremi.midura@outlook.com</p>
+    <p><strong>Telefon:</strong> +48 883 591 257</p>
+  </section>
+
+  <section tabindex="0" aria-labelledby="spis" id="spis">
+    <h2>Spis treści</h2>
+    <ul>
+      <li><a href="#wprowadzenie">Wprowadzenie</a></li>
+      <li><a href="#historia">Krótka historia powstania Markdown</a></li>
+      <li><a href="#komendy">Wszystkie komendy</a></li>
+    </ul>
+  </section>
+
+  <section tabindex="0" aria-labelledby="wprowadzenie" id="wprowadzenie">
+    <h2>Wprowadzenie</h2>
+    <p>Przedstawie małą historię powstania i wszystkie komendy</p>
+  </section>
+
+  <section tabindex="0" aria-labelledby="historia" id="historia">
+    <h2>Krótka historia powstania Markdown</h2>
+    <p>Markdown to lekki język znaczników, którego celem było umożliwienie łatwego formatowania tekstu przy zachowaniu maksymalnej czytelności. Jego historia zaczyna się w 2004 roku, kiedy to John Gruber razem z Aaronem Swartzem stworzyli pierwszy parser Markdown.</p>
+    <p>Kluczową ideą było, aby każdy mógł pisać dokumenty, które później łatwo przekształcą się w poprawny kod HTML, bez konieczności zagłębiania się w skomplikowaną strukturę znaczników.</p>
+    <p>Jego wpływ jest widoczny do dziś – Markdown stał się fundamentem wielu systemów zarządzania treścią, edytorów tekstu i narzędzi wspomagających pracę zespołów, co świadczy o jego uniwersalności i prostocie.</p>
+  </section>
+
+  <section tabindex="0" aria-labelledby="komendy" id="komendy">
+  <h2>Wszystkie komendy</h2>
+
+  <div class="komenda">
+    <button type="button" class="toggle-btn">Nagłówki</button>
+    <div class="komenda-content" hidden>
+      <p>Używamy symbolu <code>#</code> przed tekstem, aby oznaczyć poziom nagłówka. Przykłady:</p>
+      <pre>
+# Nagłówek 1 (najważniejszy)
+## Nagłówek 2
+### Nagłówek 3
+#### Nagłówek 4
+##### Nagłówek 5
+###### Nagłówek 6 (najmniej ważny)
+      </pre>
+    </div>
+  </div>
+
+  <div class="komenda">
+    <button type="button" class="toggle-btn">Pogrubienie i kursywa</button>
+    <div class="komenda-content" hidden>
+      <p>Kursywa – można użyć pojedynczych gwiazdek <code>*</code> lub podkreśleń <code>_</code>:</p>
+      <pre>*kursywa* lub _kursywa_</pre>
+      <p>Pogrubienie – podwójne gwiazdki <code>**</code> lub podwójne podkreślenia <code>__</code>:</p>
+      <pre>**pogrubienie** lub __pogrubienie__</pre>
+      <p>Pogrubienie i kursywa jednocześnie:</p>
+      <pre>***pogrubienie i kursywa*** lub ___pogrubienie i kursywa___</pre>
+    </div>
+  </div>
+
+  <div class="komenda">
+    <button type="button" class="toggle-btn">Cytaty</button>
+    <div class="komenda-content" hidden>
+      <p>Aby zaznaczyć cytat, używamy znaku <code>&gt;</code>:</p>
+      <pre>
+> To jest przykład cytatu.
+>> Cytat zagnieżdżony
+      </pre>
+    </div>
+  </div>
+
+  <div class="komenda">
+    <button type="button" class="toggle-btn">Listy</button>
+    <div class="komenda-content" hidden>
+      <ul>
+        <li>Listy nieuporządkowane – myślnik -, plus + lub gwiazdka *:</li>
+      </ul>
+      <pre>
+- przykładowy element
++ przykładowy element
+* przykładowy element
+      </pre>
+      <ul>
+        <li>Listy uporządkowane – numeracja:</li>
+      </ul>
+      <pre>
+1. Pierwszy element
+2. Drugi element
+3. Trzeci element
+      </pre>
+    </div>
+  </div>
+
+  <div class="komenda">
+    <button type="button" class="toggle-btn">Linki i obrazy</button>
+    <div class="komenda-content" hidden>
+      <p>Link: <code>[tekst](adres URL "opcjonalny tytuł")</code></p>
+      <pre>[Odwiedź stronę](https://example.com "Przykładowy tytuł")</pre>
+      <p>Obrazek: Podobna składnia, lecz poprzedzona wykrzyknikiem !</p>
+      <pre>![Tekst alternatywny](https://example.com/obrazek.jpg "Opcjonalny tytuł")</pre>
+    </div>
+  </div>
+
+  <div class="komenda">
+    <button type="button" class="toggle-btn">Kod</button>
+    <div class="komenda-content" hidden>
+      <p>Kod w tekście (inline): pojedyncze odwrotne apostrofy <code>`</code>:</p>
+      <pre>To jest <code>kod inline</code>.</pre>
+      <p>Standardowy blok kodu:</p>
+      <pre>
+przykładowy kod
+      </pre>
+    </div>
+  </div>
+</section>
+</main>
