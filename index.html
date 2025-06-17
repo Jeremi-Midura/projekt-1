@@ -45,89 +45,77 @@
     <p>Jego wpływ jest widoczny do dziś – Markdown stał się fundamentem wielu systemów zarządzania treścią, edytorów tekstu i narzędzi wspomagających pracę zespołów, co świadczy o jego uniwersalności i prostocie.</p>
   </section>
 
-  <section tabindex="0" aria-labelledby="komendy" id="komendy">
+  <section aria-labelledby="komendy" id="komendy">
   <h2>Wszystkie komendy</h2>
 
-  <div class="komenda">
-    <button type="button" class="toggle-btn">Nagłówki</button>
-    <div class="komenda-content" hidden>
-      <p>Używamy symbolu <code>#</code> przed tekstem, aby oznaczyć poziom nagłówka. Przykłady:</p>
-      <pre>
+  <section tabindex="0" class="komenda">
+    <h3>Nagłówki</h3>
+    <p>Używamy symbolu <code>#</code> przed tekstem, aby oznaczyć poziom nagłówka. Przykłady:</p>
+    <pre>
 # Nagłówek 1 (najważniejszy)
 ## Nagłówek 2
 ### Nagłówek 3
 #### Nagłówek 4
 ##### Nagłówek 5
 ###### Nagłówek 6 (najmniej ważny)
-      </pre>
-    </div>
-  </div>
+    </pre>
+  </section>
 
-  <div class="komenda">
-    <button type="button" class="toggle-btn">Pogrubienie i kursywa</button>
-    <div class="komenda-content" hidden>
-      <p>Kursywa – można użyć pojedynczych gwiazdek <code>*</code> lub podkreśleń <code>_</code>:</p>
-      <pre>*kursywa* lub _kursywa_</pre>
-      <p>Pogrubienie – podwójne gwiazdki <code>**</code> lub podwójne podkreślenia <code>__</code>:</p>
-      <pre>**pogrubienie** lub __pogrubienie__</pre>
-      <p>Pogrubienie i kursywa jednocześnie:</p>
-      <pre>***pogrubienie i kursywa*** lub ___pogrubienie i kursywa___</pre>
-    </div>
-  </div>
+  <section tabindex="0" class="komenda">
+    <h3>Pogrubienie i kursywa</h3>
+    <p>Kursywa – można użyć pojedynczych gwiazdek <code>*</code> lub podkreśleń <code>_</code>:</p>
+    <pre>*kursywa* lub _kursywa_</pre>
+    <p>Pogrubienie – podwójne gwiazdki <code>**</code> lub podwójne podkreślenia <code>__</code>:</p>
+    <pre>**pogrubienie** lub __pogrubienie__</pre>
+    <p>Pogrubienie i kursywa jednocześnie:</p>
+    <pre>***pogrubienie i kursywa*** lub ___pogrubienie i kursywa___</pre>
+  </section>
 
-  <div class="komenda">
-    <button type="button" class="toggle-btn">Cytaty</button>
-    <div class="komenda-content" hidden>
-      <p>Aby zaznaczyć cytat, używamy znaku <code>&gt;</code>:</p>
-      <pre>
+  <section tabindex="0" class="komenda">
+    <h3>Cytaty</h3>
+    <p>Aby zaznaczyć cytat, używamy znaku <code>&gt;</code>:</p>
+    <pre>
 > To jest przykład cytatu.
 >> Cytat zagnieżdżony
-      </pre>
-    </div>
-  </div>
+    </pre>
+  </section>
 
-  <div class="komenda">
-    <button type="button" class="toggle-btn">Listy</button>
-    <div class="komenda-content" hidden>
-      <ul>
-        <li>Listy nieuporządkowane – myślnik -, plus + lub gwiazdka *:</li>
-      </ul>
-      <pre>
+  <section tabindex="0" class="komenda">
+    <h3>Listy</h3>
+    <ul>
+      <li>Listy nieuporządkowane – myślnik -, plus + lub gwiazdka *:</li>
+    </ul>
+    <pre>
 - przykładowy element
 + przykładowy element
 * przykładowy element
-      </pre>
-      <ul>
-        <li>Listy uporządkowane – numeracja:</li>
-      </ul>
-      <pre>
+    </pre>
+    <ul>
+      <li>Listy uporządkowane – numeracja:</li>
+    </ul>
+    <pre>
 1. Pierwszy element
 2. Drugi element
 3. Trzeci element
-      </pre>
-    </div>
-  </div>
+    </pre>
+  </section>
 
-  <div class="komenda">
-    <button type="button" class="toggle-btn">Linki i obrazy</button>
-    <div class="komenda-content" hidden>
-      <p>Link: <code>[tekst](adres URL "opcjonalny tytuł")</code></p>
-      <pre>[Odwiedź stronę](https://example.com "Przykładowy tytuł")</pre>
-      <p>Obrazek: Podobna składnia, lecz poprzedzona wykrzyknikiem !</p>
-      <pre>![Tekst alternatywny](https://example.com/obrazek.jpg "Opcjonalny tytuł")</pre>
-    </div>
-  </div>
+  <section tabindex="0" class="komenda">
+    <h3>Linki i obrazy</h3>
+    <p>Link: <code>[tekst](adres URL "opcjonalny tytuł")</code></p>
+    <pre>[Odwiedź stronę](https://example.com "Przykładowy tytuł")</pre>
+    <p>Obrazek: Podobna składnia, lecz poprzedzona wykrzyknikiem !</p>
+    <pre>![Tekst alternatywny](https://example.com/obrazek.jpg "Opcjonalny tytuł")</pre>
+  </section>
 
-  <div class="komenda">
-    <button type="button" class="toggle-btn">Kod</button>
-    <div class="komenda-content" hidden>
-      <p>Kod w tekście (inline): pojedyncze odwrotne apostrofy <code>`</code>:</p>
-      <pre>To jest <code>kod inline</code>.</pre>
-      <p>Standardowy blok kodu:</p>
-      <pre>
+  <section tabindex="0" class="komenda">
+    <h3>Kod</h3>
+    <p>Kod w tekście (inline): pojedyncze odwrotne apostrofy <code>`</code>:</p>
+    <pre>To jest <code>kod inline</code>.</pre>
+    <p>Standardowy blok kodu:</p>
+    <pre>
 przykładowy kod
-      </pre>
-    </div>
-  </div>
+    </pre>
+  </section>
 </section>
 </main>
